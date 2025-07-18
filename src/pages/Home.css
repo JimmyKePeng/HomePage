@@ -200,3 +200,77 @@ p {
   margin-top: 1rem;
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  /* HOME PAGE */
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+
+  .description {
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .name-div {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .image-div {
+    width: 100%;
+    padding: 1rem 0;
+    box-shadow: none;
+  }
+
+  .my-image {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .email-div {
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .contact-me {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  /* ABOUT PAGE */
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .about-container p {
+    text-align: center;
+  }
+
+  .about-container ul {
+    margin-left: 1rem;
+    padding-left: 1rem;
+  }
+
+  /* CONTACT PAGE */
+  .contact-container {
+    padding: 2rem 1rem;
+    height: auto;
+  }
+
+  .form-container {
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+}
