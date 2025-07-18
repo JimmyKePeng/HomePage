@@ -1,0 +1,23 @@
+/* .main {
+  display: flex;
+  flex-direction: column;
+} */
+/* @import "tailwindcss"; */
+:root {
+  --btn-color: #007bff;
+  --btn-hover-color: #1a52f8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+main {
+  /* background-color: rgb(96, 94, 94); */
+}
+body {
+  margin: 0;
+  padding: 0;
+}

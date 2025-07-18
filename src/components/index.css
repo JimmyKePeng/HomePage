@@ -1,0 +1,41 @@
+.footer-div {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: white;
+  height: 2rem;
+  background-color: rgb(0, 0, 0);
+}
+
+.line {
+  border: 1px solid blue;
+}
+
+.email-div {
+  display: flex;
+  align-items: center; /* vertically center icon and text */
+  gap: 0.5rem; /* space between icon and text */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.email-icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.gmail-div {
+  margin-top: auto;
+}
+
+.gmail-div a {
+  color: rgb(186, 235, 166);
+  text-decoration: none;
+}
+
+.gmail-div a:visited {
+  color: rgb(72, 233, 8);
+}
