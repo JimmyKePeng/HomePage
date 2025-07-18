@@ -40,7 +40,7 @@ export default function Contact() {
   }
 
   return (
-    <div>
+    <div className="contact-container">
       <form onSubmit={handleSubmit} className="form-container">
         <div className="input-container">
           <label> Name:</label>
