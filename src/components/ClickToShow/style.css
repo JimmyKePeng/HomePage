@@ -14,6 +14,8 @@
   color: white;
   font-weight: bold;
   background-color: var(--btn-color);
+  border-radius: 10px;
+  border: none;
 }
 
 .show-buttons:hover {

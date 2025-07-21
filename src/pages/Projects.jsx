@@ -7,7 +7,7 @@ import ClickToShow from "../components/ClickToShow/ClickToShow";
 import "./Home.css";
 function Projects() {
   return (
-    <div>
+    <div className="project-container">
       <div className="project-h1">
         <h1>Click to see each small project</h1>
       </div>
