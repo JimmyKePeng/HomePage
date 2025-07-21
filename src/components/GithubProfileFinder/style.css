@@ -1,0 +1,57 @@
+.github-profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+}
+.user {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 80%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  border: solid;
+  border-color: rgb(134, 127, 127);
+}
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: bold;
+  width: 80%;
+  height: 100%;
+  /* border: solid;
+  border-color: rgb(134, 127, 127); */
+}
+.oneline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+}
+.oneline a {
+  color: blue;
+  text-decoration: underline;
+}
+.user-card img {
+  width: 150px;
+  border-radius: 50%;
+  height: auto;
+}
+
+.git-btn {
+  border-radius: 10px;
+  margin-left: 1rem;
+  padding: 0 1rem 0 1rem;
+  background-color: var(--btn-color);
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}

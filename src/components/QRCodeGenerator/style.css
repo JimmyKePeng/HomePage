@@ -1,0 +1,22 @@
+.QRCode-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.QRCode-form {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0 1rem 0;
+}
+
+.QRCode-btn {
+  border-radius: 10px;
+  margin-left: 1rem;
+  padding: 0 1rem 0 1rem;
+  background-color: var(--btn-color);
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}

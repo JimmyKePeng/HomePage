@@ -1,0 +1,26 @@
+.ClickToShow-div {
+  display: flex;
+  flex-direction: column;
+}
+.btn-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.show-buttons {
+  padding: 1rem;
+  margin: 1rem;
+  color: white;
+  font-weight: bold;
+  background-color: var(--btn-color);
+}
+
+.show-buttons:hover {
+  background-color: rgb(60, 60, 226);
+}
+
+/* .showing-div {
+  background-color: aqua;
+  margin-top: 50px;
+} */

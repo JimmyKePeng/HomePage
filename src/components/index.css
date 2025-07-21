@@ -12,6 +12,8 @@
 
 .line {
   border: 1px solid blue;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .email-div {
