@@ -45,10 +45,13 @@
 
 .down-arrow {
   font-size: 2rem; /* adjust as needed */
-  animation: bounce 1.5s infinite;
+  /* animation: bounce 1.5s infinite; */
   color: #007bff; /* optional */
 }
 
+.down-arrow.bounce {
+  animation: bounce 1.5s infinite;
+}
 /* Keyframes for bounce */
 @keyframes bounce {
   0%,
