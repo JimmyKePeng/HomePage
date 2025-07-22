@@ -3,7 +3,7 @@ import QRCodeGenerator from "../QRCodeGenerator/QRCodeGenerator";
 import GithubProfileFinder from "../GithubProfileFinder/GithubProfileFinder";
 import TicTacToe from "../TicTacToe/TicTacToe";
 import StopWatch from "../StopWatch/StopWatch";
-
+import { IoArrowDownCircle } from "react-icons/io5";
 import "./style.css";
 export default function ClickToShow() {
   const components = [
@@ -44,6 +44,10 @@ export default function ClickToShow() {
         </button>
       </div>
       <div className="showing-div">{showing && showing.component}</div>
+      <div className="floor-web">
+        <IoArrowDownCircle className="down-arrow" />
+        <a href="https://minghardwoodfloor.com">My Floor Website</a>
+      </div>
     </div>
   );
 }

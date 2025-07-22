@@ -1,6 +1,7 @@
 .ClickToShow-div {
   display: flex;
   flex-direction: column;
+  height: 80vh;
 }
 .btn-div {
   display: flex;
@@ -26,3 +27,36 @@
   background-color: aqua;
   margin-top: 50px;
 } */
+
+.floor-web {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto; /* push this to the bottom */
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.floor-web a {
+  color: rgb(72, 233, 8);
+}
+
+.down-arrow {
+  font-size: 2rem; /* adjust as needed */
+  animation: bounce 1.5s infinite;
+  color: #007bff; /* optional */
+}
+
+/* Keyframes for bounce */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(15px);
+  }
+}
