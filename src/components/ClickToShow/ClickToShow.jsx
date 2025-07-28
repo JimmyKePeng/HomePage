@@ -3,29 +3,23 @@ import QRCodeGenerator from "../QRCodeGenerator/QRCodeGenerator";
 import GithubProfileFinder from "../GithubProfileFinder/GithubProfileFinder";
 import TicTacToe from "../TicTacToe/TicTacToe";
 import StopWatch from "../StopWatch/StopWatch";
+import WeatherApp from "../WeatherApp/WeatherApp";
 import { IoArrowDownCircle } from "react-icons/io5";
 import "./style.css";
+
 export default function ClickToShow() {
   const components = [
-    {
-      key: "StopWatch",
-      component: <StopWatch />,
-    },
-    {
-      key: "TicTacToe",
-      component: <TicTacToe />,
-    },
-    {
-      key: "GithubProfileFinder",
-      component: <GithubProfileFinder />,
-    },
-    {
-      key: "QRCodeGenerator",
-      component: <QRCodeGenerator />,
-    },
+    { key: "WeatherApp", component: <WeatherApp /> },
+    { key: "StopWatch", component: <StopWatch /> },
+    { key: "TicTacToe", component: <TicTacToe /> },
+    { key: "GithubProfileFinder", component: <GithubProfileFinder /> },
+    { key: "QRCodeGenerator", component: <QRCodeGenerator /> },
   ];
 
-  const [showing, setShowing] = useState(null);
+  const [showing, setShowing] = useState({
+    key: "WeatherApp",
+    component: <WeatherApp />,
+  });
   const [arrowBounce, setArrowBounce] = useState(true);
   return (
     <div className="ClickToShow-div">

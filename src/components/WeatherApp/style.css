@@ -1,0 +1,57 @@
+.weather-app-div {
+  justify-self: center;
+  width: 600px;
+  height: 500px;
+  background-color: rgb(91, 219, 68);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weather-input-div {
+  margin: 2rem;
+}
+.weather-input {
+  background-color: white;
+  border-radius: 5px;
+  width: 400px;
+  height: 40px;
+  margin-right: 1rem;
+}
+.weather-btn {
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+/* Location.jsx */
+.location-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub-div {
+  display: flex;
+}
+.wind-speed-div,
+.humidity-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 2rem 1rem 2rem;
+  font-weight: bold;
+}
+
+.temp {
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.city {
+  font-weight: bold;
+  font-size: xx-large;
+}
