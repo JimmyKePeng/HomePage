@@ -16,10 +16,7 @@ export default function ClickToShow() {
     { key: "QRCodeGenerator", component: <QRCodeGenerator /> },
   ];
 
-  const [showing, setShowing] = useState({
-    key: "WeatherApp",
-    component: <WeatherApp />,
-  });
+  const [showing, setShowing] = useState();
   const [arrowBounce, setArrowBounce] = useState(true);
   return (
     <div className="ClickToShow-div">
