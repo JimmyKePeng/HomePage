@@ -9,7 +9,13 @@ function Projects() {
   return (
     <div className="project-container">
       <div className="project-h1">
-        <h1>Click to see each small project</h1>
+        <h1>Click to see each small project </h1>
+        <a
+          className="foodRecipeLink"
+          href="https://jimmyfoodrecipe.vercel.app/"
+        >
+          Here's Food Recipe Web
+        </a>
       </div>
       <ClickToShow />
       {/* <TicTacToe />

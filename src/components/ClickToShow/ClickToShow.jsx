@@ -43,6 +43,7 @@ export default function ClickToShow() {
           clear
         </button>
       </div>
+
       <div className="showing-div">{showing && showing.component}</div>
       <div className="floor-web">
         <IoArrowDownCircle

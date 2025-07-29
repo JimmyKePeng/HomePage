@@ -1,7 +1,7 @@
 .ClickToShow-div {
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  height: 75vh;
 }
 .btn-div {
   display: flex;
