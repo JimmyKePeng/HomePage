@@ -15,6 +15,7 @@ export default function Calculator() {
     ["0", ".", "C"],
   ];
   const operatorButtons = ["+", "-", "*", "/"];
+
   function handleClick(value) {
     switch (value) {
       case "C":
@@ -44,15 +45,22 @@ export default function Calculator() {
       default:
         let newValue = value;
         if (isFirst) {
-          if (num1 !== "0") newValue = num1 + value;
-          setNum1(newValue);
+          if (num1 !== "0") {
+            newValue = num1 + value;
+          }
+          // setNum1(newValue);
+          setNum1((prev) => (prev === "0" ? value : prev + value));
         } else {
-          if (num2 !== "0") newValue = num2 + value;
-          setNum2(newValue);
+          if (num2 !== "0") {
+            newValue = num2 + value;
+          }
+          // setNum2(newValue);
+          setNum2((prev) => (prev === "0" ? value : prev + value));
         }
         setDisplay(newValue);
     }
   }
+
   function reset() {
     setNum1("0");
     setNum2("0");
@@ -60,6 +68,40 @@ export default function Calculator() {
     setIsFirst(true);
     setSign(null);
   }
+
+  // const keys = [
+  //   "0",
+  //   "1",
+  //   "2",
+  //   "3",
+  //   "4",
+  //   "5",
+  //   "6",
+  //   "7",
+  //   "8",
+  //   "9",
+  //   ".",
+  //   "+",
+  //   "-",
+  //   "/",
+  //   "*",
+  // ];
+
+  // function handleKeydown(event) {
+  //   const key = event.key;
+  //   if (keys.includes(key)) {
+  //     handleClick(key);
+  //   } else if (key === "Enter") {
+  //     handleClick("=");
+  //   } else if (key === "Backspace") {
+  //     handleClick("C");
+  //   }
+  // }
+  // useEffect(() => {
+  //   window.addEventListener("keydown", handleKeydown);
+  //   return () => window.removeEventListener("keydown", handleKeydown);
+  // }, []);
+
   return (
     <div className="calculator-div">
       <div className="main">
