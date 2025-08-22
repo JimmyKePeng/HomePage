@@ -1,0 +1,74 @@
+.calculator-btn {
+  margin: 3px;
+  background-color: rgb(156, 145, 145);
+  color: white;
+  border-radius: 7px;
+  height: 2rem;
+  font-weight: bold;
+}
+.calculator-sign-btn {
+  margin: 3px;
+  background-color: rgb(209, 153, 23);
+  color: white;
+  border-radius: 5px;
+  height: 2rem;
+  font-weight: bold;
+}
+
+.calculator-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.main {
+  height: 400px;
+  width: 250px;
+  background-color: rgb(42, 41, 41);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  padding: 10px 5px 10px 5px;
+}
+
+.display {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: rgb(118, 118, 222);
+  color: white;
+  margin: 0px 10px 1px 10px;
+  padding: 3px;
+  height: 2rem;
+}
+.operators {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.equal {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 10px;
+}
+
+.equal-btn {
+  background-color: rgb(209, 153, 23);
+  color: white;
+  font-weight: bold;
+  height: 2rem;
+}

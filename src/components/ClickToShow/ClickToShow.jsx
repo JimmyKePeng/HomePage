@@ -6,6 +6,7 @@ import StopWatch from "../StopWatch/StopWatch";
 import WeatherApp from "../WeatherApp/WeatherApp";
 import { IoArrowDownCircle } from "react-icons/io5";
 import "./style.css";
+import Calculator from "../Calculator/Calculator";
 
 export default function ClickToShow() {
   const components = [
@@ -14,6 +15,7 @@ export default function ClickToShow() {
     { key: "TicTacToe", component: <TicTacToe /> },
     { key: "GithubProfileFinder", component: <GithubProfileFinder /> },
     { key: "QRCodeGenerator", component: <QRCodeGenerator /> },
+    { key: "Calculator", component: <Calculator /> },
   ];
 
   const [showing, setShowing] = useState();
