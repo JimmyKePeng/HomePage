@@ -18,15 +18,6 @@ function Projects() {
         </a>
       </div>
       <ClickToShow />
-      {/* <TicTacToe />
-      <Line />
-      <StopWatch />
-      <Line />
-      <GithubProfileFinder />
-      <Line />
-      <QRCodeGenerator />
-      <br />
-      <Line /> */}
     </div>
   );
 }

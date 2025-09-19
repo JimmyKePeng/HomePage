@@ -8,7 +8,7 @@
 }
 .calculator-sign-btn {
   margin: 3px;
-  background-color: rgb(209, 153, 23);
+  background-color: rgb(77, 172, 190);
   color: white;
   border-radius: 5px;
   height: 2rem;
@@ -67,7 +67,7 @@
 }
 
 .equal-btn {
-  background-color: rgb(209, 153, 23);
+  background-color: rgb(77, 172, 190);
   color: white;
   font-weight: bold;
   height: 2rem;

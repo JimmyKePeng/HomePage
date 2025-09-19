@@ -1,5 +1,7 @@
 /* Project CSS */
-
+/* .project-container {
+  background-color: #c6c2c2;
+} */
 .project-h1 {
   display: flex;
   flex-direction: column;
@@ -15,7 +17,7 @@
   text-decoration: underline;
 }
 /* .project-container {
-  background-color: #444;  
+  background-color: #b2aeae;
 
   background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
   background-repeat: repeat;

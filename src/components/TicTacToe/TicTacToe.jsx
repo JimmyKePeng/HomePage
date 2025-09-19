@@ -86,22 +86,15 @@ function TicTacToe() {
         </div>
         <div className="board-right">
           {playerO ? null : <h1>Player X turn</h1>}
-          {/* {winner === null ? (
-            <h1>Next player is {playerO ? "O" : "X"}</h1>
-          ) : winner === "Draw" ? (
-            <h1>{winner}. Please restart the game</h1>
-          ) : (
-            <h1> Winner is {winner}. Please restart the game</h1>
-          )} */}
         </div>
       </div>
 
       <div className="result">
         {winner ? (
           winner === "Draw" ? (
-            <h1>Draw</h1>
+            <h1 className="winner">Draw</h1>
           ) : (
-            <h1>winner is {winner}</h1>
+            <h1 className="winner">winner is {winner}</h1>
           )
         ) : null}
         <button onClick={() => resetBoard()}>Restart</button>

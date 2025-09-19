@@ -56,3 +56,7 @@
 .result button:hover {
   background-color: var(--btn-hover-color);
 }
+
+.winner {
+  color: red;
+}
