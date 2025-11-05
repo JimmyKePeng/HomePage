@@ -16,6 +16,13 @@ function Navbar() {
         <Link to="/Projects">Projects</Link>
         <Link to="/About">About</Link>
         <Link to="/Contact">Contact</Link>
+        <a
+          href="/KegangPengResume.pdf"
+          download // suggests a download instead of opening in the tab
+          className="resume"
+        >
+          Download Resume
+        </a>
       </div>
     </nav>
   );

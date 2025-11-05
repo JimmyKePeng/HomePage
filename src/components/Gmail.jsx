@@ -12,6 +12,15 @@ function Gmail() {
       {show && (
         <a href="https://www.linkedin.com/in/kegang-peng-717717339">LinkedIn</a>
       )}
+      <br />
+      <a
+        href="/KegangPengResume.pdf"
+        download // suggests a download instead of opening in the tab
+        // className="resume"
+        id="resume"
+      >
+        Download My Resume
+      </a>
     </div>
   );
 }

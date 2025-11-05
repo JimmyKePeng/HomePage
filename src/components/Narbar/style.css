@@ -43,5 +43,9 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding-right: 2rem;
+  /* padding-right: 2rem; */
+}
+
+.resume {
+  font-size: small;
 }
