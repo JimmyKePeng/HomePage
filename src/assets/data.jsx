@@ -57,9 +57,9 @@ const education = [
   </li>,
 ];
 const skills = [
+  <li>C++, Python, Java</li>,
   <li>JavaScript, HTML, CSS</li>,
   <li>React, Node.js, Express</li>,
-  <li>C++, Python</li>,
   <li>PostgreSQL, Git</li>,
 ];
 const licenses = [
