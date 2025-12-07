@@ -17,15 +17,6 @@ function StopWatch() {
     return () => clearInterval(interval);
   }, [running]);
 
-  // useEffect(() => {
-  //   let interval;
-  //   if (running) {
-  //     startRef.current = Date.now() - time;
-  //     interval = setInterval(() => setTime(Date.now() - startRef.current), 10);
-  //   }
-  //   return clearInterval(interval);
-  // }, [running]);
-
   function format() {
     let min = Math.floor((time / 1000 / 60) % 60);
     let s = Math.floor((time / 1000) % 60);
