@@ -38,7 +38,8 @@ const aboutMe = [
     and shrimp, a hobby known as aquarium keeping or aquascaping. That said, I
     don't always have a lot of free time these days. I run my hardwood flooring
     business full time, attend California State University East bay full time,
-    and I'm also a parent to two kids, ages 10 and 11.
+    and I'm also a parent to two kids, ages {new Date().getFullYear() - 2015}{" "}
+    and {new Date().getFullYear() - 2014}.
   </p>,
   <p>
     Am I busy? Absolutely. But I don't want to stay in the construction industry
