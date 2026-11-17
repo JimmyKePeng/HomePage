@@ -54,7 +54,7 @@ const education = [
   </li>,
   <li>
     California State University, East Bay Bachelor of Science in Computer
-    Science, Expected Graduation: May 2026
+    Science, Graduated May 2026
   </li>,
 ];
 const skills = [
